@@ -9,7 +9,8 @@
     "pretty": "^2.0.0"
   },
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "untrack": "git rm -r --cached ."
   },
   "repository": {
     "type": "git",
