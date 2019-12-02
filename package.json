@@ -1,0 +1,27 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "Snake clone",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "pretty": "^2.0.0"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skiv71/snake.git"
+  },
+  "keywords": [
+    "Snake"
+  ],
+  "author": "Neil duffy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skiv71/snake/issues"
+  },
+  "homepage": "https://github.com/skiv71/snake#readme"
+}
