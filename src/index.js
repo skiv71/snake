@@ -113,7 +113,7 @@ canvas.add(new Snake(100, 100, 24, 24, 'limegreen', 4, 4))
 
 var n = 1
 while(canvas.sprites.filter(s => s.color == 'red').length < 10) {
-    canvas.add(new Food(random(10, canvas.width - 10), random(10, canvas.height), 24, 24, 'red'))
+    canvas.add(new Food(random(10, canvas.width - 48), random(10, canvas.height - 48), 24, 24, 'red'))
     n++
     if (n > 20)
         throw 'oops'
