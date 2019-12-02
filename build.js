@@ -43,7 +43,7 @@ async function main() {
         var html = await readFile(file.html)
         var js = await readFile(file.js)
         var $ = cheerio.load(html)
-        $('head').append(`<script defer>${js}</script>`)
+        $('body').append(`<script>${js}</script>`)
         await writeFile(file.path('dist/index.html'), pretty($.html()))
     } catch(e) {
         console.log(e)
